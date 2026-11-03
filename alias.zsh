@@ -1,8 +1,8 @@
 
 compdef eza=ls
-alias ls='eza --icons'
-alias ll='eza -lah --git --icons'
-alias lt='eza --tree --icons'
+alias ls='eza --icons=auto'
+alias ll='eza -lah --git --icons=auto'
+alias lt='eza --tree --icons=auto'
 
 function mkdircd(){ mkdir -p $@ && cd $_ }
 
